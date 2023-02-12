@@ -36,8 +36,18 @@ Açıklama: Mevcut puanı hesaplama algoritması şöyledir:
   board2.txt -> Siyah:116.0 Beyaz:123.0 <br>
   board3.txt -> Siyah:108.0 Beyaz:109.0 </p>
   
-
   
+  <h2> Kurulum </h2>
+  <p> Program Java dili ile yazılmıştır. Java kodu çalıştırabilen herhangi geliştirme ortamında çalıştırabilirsiniz. Ben Intellij Idea kullandım. </p>
+  <p> <img src="https://r.resimlink.com/rQV50.png" alt="CsTechChess.zip"> Yukarıda bu isimde ki dosyadan kodu bilgisayarınıza indirebilirsiniz. </p>
+  <p> Kodumuzu yüklediğimizde dosyalar bu şekilde gözükecektir. </p>
+  
+  <img src="https://r.resimlink.com/q3tmOg_07voL.png" alt="Code screen">
+  
+  <p> Main classımızdan kodumuzu çalıştırdığımızda istediğimiz sonucu almaktayız. Main classında 7. satırda kontrol etmesini istediğimiz txt dosyasının ismini değiştirebilmekteyiz. </p>
+  
+    
+  <img src="https://r.resimlink.com/Q5u4IfMoF.png" alt="Code screen2">
   
  
 
