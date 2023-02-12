@@ -16,17 +16,29 @@ Açıklama: Mevcut puanı hesaplama algoritması şöyledir:
 <table><tbody><tr><th>Taş İsmi</th><th>Kısaltma</th><th>Puanı</th></tr><tr><td>Piyon</td><td>p</td><td>1</td></tr><tr><td>At</td><td>a</td><td>3</td></tr><tr><td>Fil</td><td>f</td><td>3</td></tr><tr><td>Kale</td><td>k</td><td>5</td></tr><tr><td>Vezir</td><td>v</td><td>9</td></tr><tr><td>Şah</td><td>s</td><td>100</td></tr></tbody></table>
 
 
-
 <p>Örnek:</p>
 
 <img src="https://r.resimlink.com/1q6CJd.png" alt="Chess" width="400" height="400">
-<p> puan hesabı; tehdit altında olan taşlara göre şöyle hesaplanabilir: </p>
+<p> Puan hesabı, tehdit altında olan taşlara göre şöyle hesaplanabilir: </p>
 <p> Siyah = (3*0.5)+(5*1)+(3*2)+(3*2)+(5*2)+9+100 = 137.5</p>
 <p> Beyaz = (1*0.5)+(7*1)+(3*2)+(3*2)+(5*2)+9+100 = 138.5</p>
-
-
 
 <h2> Çözüm </h2>
 
 <p> Kod Java programlama dili ile Intellij Idea ortamında hazırlanmıştır. </p> 
+<p> Projede 9 tane class yer almaktadır. </p>
+<img src="https://r.resimlink.com/ws68CeP.png" alt="Class">
+<p> Piece abstract classtır. Bu sınıftan kalıtım alan sınıflar ise: Bishop(Fil), King(Şah), Knight(At), Pawn(Piyon), Queen(Vezir), Rook(Kale)
+ 
+<p>Test için 3 tane dosya ve olması gereken sonuçlar eklenmiştir. </p>
+<p> Yaptığım test sonucunda aşağıda ki sonuçlar çıkmıştır: <br>
+  board1.txt -> Siyah:133.5 Beyaz:134.5 <br>
+  board2.txt -> Siyah:116.0 Beyaz:123.0 <br>
+  board3.txt -> Siyah:108.0 Beyaz:109.0 </p>
+  
+
+  
+  
+ 
+
 
